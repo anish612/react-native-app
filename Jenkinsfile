@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/anish612/hello-world-react-native-app.git'
+        git branch: 'main', url: 'https://github.com/anish612/react-native-app.git'
       }
     }
     stage('Build') {
